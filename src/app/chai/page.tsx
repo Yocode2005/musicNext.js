@@ -8,3 +8,5 @@ export default function Home() {
     </>
   );
 }
+
+// route bna hai http://localhost:3000/chai
