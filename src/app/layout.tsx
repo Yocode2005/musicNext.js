@@ -26,7 +26,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
         {/* <h2>universal Navbar.. ye wala layout sabhi pages ko serve hota hai</h2> */}
-        <Navbar />
+         <div className="relative w-full flex items-center justify-center ">
+          <Navbar />
+        </div>
         {children}</body>
     </html>
   );
